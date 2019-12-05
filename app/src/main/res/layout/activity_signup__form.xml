@@ -12,68 +12,84 @@
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:hint="Sign UP"
+       android:hint="Sign Up"
+       android:textSize="25sp"
        android:gravity="center"
        />
 
     <EditText
         android:hint="First Name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        />
     <EditText
         android:hint="Last Name"
-        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"/>
     <EditText
         android:hint="Age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:hint="Address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:hint="Email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:hint="Phone no"
-        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"/>
 
+    <EditText
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_margin="10dp"
         android:layout_height="wrap_content"
         android:hint="Gender"/>
     <RadioGroup
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
+        android:layout_margin="10dp"
         android:layout_height="wrap_content"
 
         >
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:checked="true"
         android:hint="Male"
+
         />
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Female"
         />
-    <RadioButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Others"
-        />
+
 
     </RadioGroup>
 
+ <EditText
+     android:hint="Password"
+     android:inputType="textPassword"
+     android:layout_width="350dp"
+     android:layout_margin="10dp"
+     android:layout_height="wrap_content"/>
+
+
+ <EditText
+     android:hint="Conform Password"
+     android:inputType="textPassword"
+     android:layout_width="350dp"
+     android:layout_height="wrap_content"/>
+
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:hint="Sign Up"
         />
+
+
 
 </LinearLayout>

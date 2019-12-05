@@ -6,20 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FDFEFE"
+    android:gravity="center"
     tools:context=".MainActivity">
+
+
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="250dp">
+        android:layout_height="200dp">
 
         <ImageView
             android:layout_width="411dp"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:background="#FDFEFE"
             android:src="@drawable/par"
 
+
             />
+
     </LinearLayout>
 
     <TextView
@@ -34,43 +38,38 @@
     <EditText
 
         android:id="@+id/userName"
-        android:layout_margin="30dp"
+        android:layout_margin="20dp"
         android:drawableLeft="@drawable/ic_person_black_24dp"
         android:hint="Username"
-        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/Password"
-        android:layout_margin="30dp"
         android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
         android:hint="Password"
-        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+
     <Button
         android:hint="LOGIN"
-        android:layout_gravity="center"
         android:background="@drawable/button_round"
-        android:layout_width="110dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
         android:gravity="center"
-        android:layout_margin="40dp"
 
         />
-    <Button
-        android:hint="Register"
-        android:layout_gravity="center"
-        android:background="@drawable/button_round"
-        android:layout_width="110dp"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
         android:onClick="btn_signupForm"
+        android:gravity="center"
         />
-
-</LinearLayout>
 
 </LinearLayout>
 
