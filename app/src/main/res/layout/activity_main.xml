@@ -7,30 +7,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#1F7EB5"
     tools:context=".MainActivity">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/bikeparts"
+        />
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="200dp">
 
-        <ImageView
-            android:layout_width="411dp"
-            android:layout_height="200dp"
-            android:background="#FDFEFE"
-            android:src="@drawable/par"
-
-
-            />
-
-    </LinearLayout>
-
+</LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:hint="LOGIN"
+        android:text="LOGIN"
+        android:textColor="#FBFCFC"
         android:textSize="20sp"
         android:layout_margin="10dp"
         />
@@ -40,7 +38,8 @@
         android:id="@+id/userName"
         android:layout_margin="20dp"
         android:drawableLeft="@drawable/ic_person_black_24dp"
-        android:hint="Username"
+        android:text="Username"
+        android:textColor="#FBFCFC"
         android:textSize="20sp"
         android:layout_width="280dp"
         android:layout_height="wrap_content"/>
@@ -49,15 +48,17 @@
         android:id="@+id/Password"
         android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
         android:hint="Password"
+        android:textColorHint="#FBFCFC"
         android:inputType="textPassword"
         android:textSize="20dp"
         android:layout_width="280dp"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:hint="LOGIN"
-        android:background="@drawable/button_round"
-        android:layout_width="80dp"
+        android:text="LOGIN"
+        android:background="#1F7EB5"
+        android:layout_width="200dp"
+        android:textColor="#FBFCFC"
         android:layout_height="40dp"
         android:gravity="center"
 
@@ -67,6 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Don't have an account? Sign Up"
+        android:textColor="#FBFCFC"
         android:onClick="btn_signupForm"
         android:gravity="center"
         />

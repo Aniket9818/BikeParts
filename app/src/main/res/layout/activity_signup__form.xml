@@ -7,88 +7,95 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#1F7EB5"
     tools:context=".Signup_Form">
 
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:paddingLeft="30dp"
+    android:onClick="btn_mainactivityForm"
+    android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+    />
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:hint="Sign Up"
+       android:text="Sign Up"
+       android:textColor="#FBFCFC"
        android:textSize="25sp"
        android:gravity="center"
        />
 
     <EditText
-        android:hint="First Name"
+        android:text="Name"
         android:layout_margin="10dp"
+        android:textColor="#FBFCFC"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
 
-        />
-    <EditText
-        android:hint="Last Name"
-        android:layout_margin="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:hint="Age"
-        android:layout_margin="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:hint="Email"
-        android:layout_margin="10dp"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"/>
-
-
-    <TextView
-        android:layout_width="350dp"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:hint="Gender"/>
-    <RadioGroup
-        android:layout_width="350dp"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-
-        >
-    <RadioButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Male"
-
-        />
-    <RadioButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Female"
         />
 
 
-    </RadioGroup>
+    <EditText
+        android:text="Email"
+        android:textColor="#FBFCFC"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+      <EditText
+       android:text="Mobile Number"
+          android:textColor="#FBFCFC"
+       android:layout_margin="10dp"
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+
+
+
 
  <EditText
      android:hint="Password"
+     android:textColorHint="#FBFCFC"
      android:inputType="textPassword"
      android:layout_width="350dp"
      android:layout_margin="10dp"
-     android:layout_height="wrap_content"/>
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+     />
 
 
  <EditText
      android:hint="Conform Password"
+     android:textColorHint="#FBFCFC"
      android:inputType="textPassword"
      android:layout_width="350dp"
-     android:layout_height="wrap_content"/>
-
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+     />
 
     <Button
         android:layout_margin="30dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Sign Up"
+        android:background="#1F7EB5"
+        android:text="Sign Up"
+        android:textColor="#FBFCFC"
         />
+
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Already have account? Login here"
+     android:gravity="center"
+     android:textColor="#FBFCFC"
+     android:onClick="btn_mainactivityForm"
+     />
 
 
 
